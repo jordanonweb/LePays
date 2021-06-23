@@ -1,0 +1,97 @@
+/*
+Theme Name: Actu Pays
+Author: moi
+Description: Mon premier thème !
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	
+}
+
+
+header img{
+    margin-left: 20px;
+    display: block;
+    width: 100px;
+    max-height: 200px;
+    margin:0;
+}
+
+header a{
+    text-decoration: none;
+    color:white;
+}
+
+header a:hover{
+    color:rgb(78, 144, 243);
+    text-decoration: none;
+}
+
+footer #footer{
+    height: 150px;
+    width:1800px;
+}
+
+header #logo{
+    margin-left:10px;
+    bottom: 200px;
+    position:relative;
+    max-width: 100px;
+}
+
+
+
+h1{
+    text-align: center;
+    color:red;
+ 
+}
+
+#btnsingle{
+	border:none;
+	background-color:rgb(70, 196, 164);
+	border-radius:5px;
+	float:left;
+	margin-left:50px;
+    margin-top:20px;
+    width:100px;
+}
+
+#sgl{
+    color:black;
+    font-weight: bolder;
+}
+h3{
+    text-align: center;
+}
+
+
+li{
+	text-align:center;
+	display:inline-flex;
+	justify-content: space-evenly;
+}
+
+.categPost{
+    display: inline-block;
+    margin-left:170px;
+}
+
+.categPost h1{
+    width:500px;
+	text-align:center;
+	display:inline-block; 
+}
+.categPost p{
+	margin-left:50px;
+	width:500px;
+	text-align:center;
+}
+
+.titre{
+    display: inline-block;
+}
+
